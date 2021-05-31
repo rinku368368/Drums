@@ -16,8 +16,7 @@ document.addEventListener("keypress",function(event){
 function makeSound(key){
 
         switch (key) {
-          case "w":
-              alert("bye")
+          case "w":  
             var tom1 = new Audio("tom-1.mp3");
             tom1.play();
             break;
